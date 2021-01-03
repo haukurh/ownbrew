@@ -23,11 +23,9 @@ CMAKE_TAR="${TF}/cmake-${VERSION}.tar.gz"
 CMAKE_FOLDER="${TF}/cmake-${VERSION}"
 OPTIONS="--prefix=${PREFIX} --no-system-libs --system-zlib --system-bzip2 --system-curl"
 
-# Download cmake
 info 'Downloading CMake'
 download $CMAKE_URL $CMAKE_TAR
 
-# Extract cmake
 info 'Extracting CMake'
 tar xf $CMAKE_TAR -C $TF
 cd $CMAKE_FOLDER
