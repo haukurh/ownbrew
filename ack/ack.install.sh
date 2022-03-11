@@ -17,7 +17,7 @@ LF=$(make_logs_folder)
 # git repo: https://github.com/beyondgrep/ack3
 
 # Setting up some basic variables for ack
-VERSION='3.4.0'
+VERSION='3.5.0'
 ACK_URL="https://beyondgrep.com/ack-v3.4.0"
 ACK="${TF}/ack-v${VERSION}"
 BINARY="${PREFIX}/bin/ack"
