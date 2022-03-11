@@ -17,7 +17,7 @@ LF=$(make_logs_folder)
 # git repo: https://github.com/Kitware/CMake
 
 # Setting up some basic variables for CMake
-VERSION='3.19.2'
+VERSION='3.22.3'
 CMAKE_URL="https://github.com/Kitware/CMake/releases/download/v${VERSION}/cmake-${VERSION}.tar.gz"
 CMAKE_TAR="${TF}/cmake-${VERSION}.tar.gz"
 CMAKE_FOLDER="${TF}/cmake-${VERSION}"
