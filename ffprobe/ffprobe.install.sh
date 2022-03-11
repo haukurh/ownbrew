@@ -17,7 +17,7 @@ LF=$(make_logs_folder)
 # git repo: https://github.com/FFmpeg/FFmpeg
 
 # Setting up some basic variables for ack
-VERSION='4.3.1'
+VERSION='5.0'
 FFPROBE_URL="https://evermeet.cx/pub/ffprobe/ffprobe-${VERSION}.zip"
 FFPROBE_ZIP="${TF}/ffprobe-${VERSION}.zip"
 FFPROBE="${TF}/ffprobe"
